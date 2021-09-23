@@ -2,8 +2,8 @@
   <div id="app">
   <QuotesList />
   <pagination
-      :totalPages="10"
-      :perPage="10"
+      :totalPages="5"
+      :perPage="15"
       :currentPage="currentPage"
       @pagechanged="onPageChange"
     />
